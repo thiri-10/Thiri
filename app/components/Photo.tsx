@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Rotate3DIcon } from "lucide-react";
 import Image from "next/image";
-import RotatingCube from "./RotatingCube";
+// import RotatingCube from "./RotatingCube";
 
 
 export default function Photo(){

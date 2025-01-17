@@ -26,7 +26,7 @@ const links = [
     },
 ];
 
-export default function(){
+export default function MobileNav(){
     const pathname = usePathname();
     return (
        <Sheet>
