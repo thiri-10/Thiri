@@ -3,8 +3,8 @@ import { FaGithub,FaLinkedinIn,FaYoutube } from "react-icons/fa";
 
 const socials = [
     {icon: <FaGithub/>,path:'https://github.com/thiri-10'},
-    {icon: <FaLinkedinIn/>,path:'www.linkedin.com/in/thiri2000'},
-    {icon: <FaYoutube/>,path:''},
+    {icon: <FaLinkedinIn/>,path:'https://www.linkedin.com/in/thiri2000'},
+    // {icon: <FaYoutube/>,path:'https://youtu.be/IuptDo2gECs?si=ath-RMRjoOfUaWE4'},
    
     
 ]

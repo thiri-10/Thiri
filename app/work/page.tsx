@@ -25,7 +25,7 @@ const projects = [
             { name: 'Html 5 ' }, { name: 'Css 3' }, { name: 'Laravel' },{name: 'Mysql'}
         ],
         image: '/project/project-1.jpg',
-        live: 'https://youtu.be/IuptDo2gECs?si=1Y4RzCSnO8hvH2uI',
+        live:'https://youtube.com/@thiri-m2on?si=jk8hkIfaRQIG7jy_',
         github: 'https://github.com/thiri-10/Todolist/tree/master'
     },
     {

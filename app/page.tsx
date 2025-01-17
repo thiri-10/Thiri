@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Socials from "./components/Socials";
 import Photo from "./components/Photo";
 import Stats from "./components/Stats";
