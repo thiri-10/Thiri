@@ -10,13 +10,13 @@ export default function Photo(){
     return(
         <div className="w-full h-full relative">
             <motion.div initial={{opacity: 0}} animate={{opacity:1,
-                transition: {delay: 2, duration:0.4, ease: 'easeIn'}
+                transition: {delay: 0.9, duration:0.4, ease: 'easeIn'}
             }}>
                 {/* Image */}
                 <motion.div
                 initial={{opacity: 0}}
                  animate={{opacity:1,
-                    transition: {delay: 2.4, duration:0.4, ease: 'easeInOut'}
+                    transition: {delay: 0.4, duration:0.4, ease: 'easeInOut'}
                 }}
 
                  className="w-[298px] h-[298px]  xl:w-[488px] xl:h-[488px] mix-blend-lighten">

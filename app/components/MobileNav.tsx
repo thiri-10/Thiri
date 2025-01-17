@@ -13,10 +13,6 @@ const links = [
         path: '/'
     },
     {
-        name:'services',
-        path: '/services'
-    },
-    {
         name:'resume',
         path: '/resume'
     },
@@ -51,7 +47,7 @@ export default function(){
                 {links.map((link,index)=>{
                     return(
                         <Link href={link.path} key={index} 
-                        className={` ${link.path === pathname && "text-teal-500 border-b-2 bordor-teal"}text-xl capitalize hover:text-accent
+                        className={` ${link.path === pathname && "text-accent border-b-2 bordor-accent"}text-xl capitalize hover:text-accent
                         transition-all`}>
                             {link.name}
                         </Link>

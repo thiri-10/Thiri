@@ -44,8 +44,8 @@ const config: Config = {
   			}
   		},
   		colors: {
-  			// primary: '#1c1c22',
-			primary: '',
+  			primary: '#1c1c22',
+			
 			accent:{
 				// DEFAULT: '#00ff99',
 				DEFAULT: 'yellow',

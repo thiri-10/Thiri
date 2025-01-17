@@ -17,39 +17,52 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 const projects = [
     {
         num: '01',
-        category: 'frontend',
-        title: 'project 1',
-        description: "alkdjfa;lkdjfa;lkdjf;l ",
+        category: 'fullstack',
+        title: 'TodoList & Note Taking website',
+        description: `This is my very first project with laravel.It took a lot of time for me since I did this on my own without
+        much knowledgde and actual experience.`,
         stack: [
-            { name: 'Html 5 ' }, { name: 'Css 3' }, { name: 'Javascript' }
+            { name: 'Html 5 ' }, { name: 'Css 3' }, { name: 'Laravel' },{name: 'Mysql'}
         ],
-        image: '',
-        live: '',
-        github: ''
+        image: '/project/project-1.jpg',
+        live: 'https://youtu.be/IuptDo2gECs?si=1Y4RzCSnO8hvH2uI',
+        github: 'https://github.com/thiri-10/Todolist/tree/master'
     },
     {
         num: '02',
-        category: 'backend',
-        title: 'project 2',
-        description: "alkdjfa;lkdjfa;lkdjf;l ",
+        category: 'frontend',
+        title: 'E-commerce',
+        description: "E-commerce with Next.Js ",
         stack: [
-            { name: 'Html 5 ' }, { name: 'Css 3' }, { name: 'Javascript' }
+            { name: 'Html 5 ' }, { name: 'Tailwind Css' }, { name: 'Next.Js' },{name: 'Redux'}
         ],
-        image: '',
-        live: '',
-        github: ''
+        image: '/project/project-2.jpg',
+        live: 'https://ecommerce-one-theta-66.vercel.app',
+        github: 'https://github.com/thiri-10/Ecommerce'
     },
     {
         num: '03',
         category: 'frontend',
-        title: 'project 3',
-        description: "alkdjfa;lkdjfa;lkdjf;l ",
+        title: 'MBTI Test',
+        description: "Mbti testing website - I encourage you to be yourself and embrace yourself",
         stack: [
-            { name: 'Next.js ' }, { name: 'Css 3' }, { name: 'Javascript' }
+            { name: 'Tailwind Css' }, { name: 'Particle Js' }, { name: 'Next.Js' }
         ],
-        image: '',
-        live: '',
-        github: ''
+        image: '/project/project-3.jpg',
+        live: 'https://mbti-testing.vercel.app',
+        github: 'https://github.com/thiri-10/MBTITesting'
+    },
+    {
+        num: '04',
+        category: 'frontend',
+        title: 'DisneyCharacter',
+        description: "Just a fun project to enjoy the journey of learning",
+        stack: [
+            { name: 'Tailwind Css' },  { name: 'Next.Js' }
+        ],
+        image: '/project/project-4.jpg',
+        live: 'https://disney-characters-dc.vercel.app/',
+        github: 'https://github.com/thiri-10/disney-characters'
     },
 
 ]
@@ -67,7 +80,7 @@ export default function Work() {
         initial={{ opacity: 0 }}
         animate={{
             opacity: 1,
-            transition: { delay: 2.4, duration: 0.4, ease: "easeIn" }
+            transition: { delay: 0.6, duration: 0.4, ease: "easeIn" }
         }}
         className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0">
         <div className="container mx-auto">
@@ -77,7 +90,7 @@ export default function Work() {
                     <div className="flex flex-col gap-[30px] h-[50%]">
                         {/* outline num */}
                         <div className="text-8xl leading-none font-extrabold 
-                        text-transparent text-outline">
+                        text-transparent text-outline text-accent">
                             {project.num}
                         </div>
                         {/* project category */}
@@ -86,6 +99,8 @@ export default function Work() {
                             {project.category}
                         </h2>
                         {/* project description */}
+                        <p className="text-white/60">{project.title}</p>
+
                         <p className="text-white/60">{project.description}</p>
                         {/* stack */}
                         <ul className="flex gap-4">
@@ -159,7 +174,7 @@ export default function Work() {
                         {/* slider buttons */}
                         <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 
                         bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between 
-                        xl:w-max xl:justify-none" btnStyles="bg-accent hover:bg-accent-hover
+                        xl:w-max xl:justify-none" btnStyles="bg-accent hover:bg-yellow-400
                         text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center
                         transition-all " iconsStyles="rounded-lg" />
                     </Swiper>
