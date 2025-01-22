@@ -49,7 +49,7 @@ const projects = [
             { name: 'Tailwind Css' }, { name: 'Particle Js' }, { name: 'Next.Js' }
         ],
         image: '/project/project-3.jpg',
-        live: 'https://mbti-testing.vercel.app',
+        live: 'https://mbti-testing.vercel.app/',
         github: 'https://github.com/thiri-10/MBTITesting'
     },
     {
